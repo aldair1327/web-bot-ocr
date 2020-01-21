@@ -1,0 +1,12 @@
+1.- Copiar la carpeta "Selenium" y "seleniumWebdrivers" en "C:"
+2.- Agregar la carpeta "seleniumWebdrivers" a nuestras variables de entorno en path
+3.- Con el proyecto abierto, abrir la consola de Visual Studio Code y ejecutar el comando "npm i" para bajar los modulos necesarios para el bot y "node index.js" para ejecutarlo
+	
+
+En caso de no corresponder el webdriver
+
+1.- Revisar la versión del navegador chrome
+2.- Descargar el webdriver de la version de chrome que tengamos de la siguiente pagina:
+	http://chromedriver.storage.googleapis.com/index.html	
+3.- Copiar el webdriver en la carpeta "seleniumWebdrivers" en "C:"
+4.- Ejecutar de nuevo el bot con el comando node index.js
